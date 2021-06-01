@@ -81,6 +81,7 @@
 '1.35     24/09/20  Jeremy J   Allow *Z_ as valid view prefix
 '1.36     02/10/20  Jeremy J   Check for Archive attachment on view
 '1.36a    14/02/21  Jeremy J   Modify Naming Standards to allow IDENTIFIER as a name part
+'1.37     01/06/21  Jeremy J   Just change the version number to 1.37
 
 '#Language "WWB-COM"
 
@@ -171,7 +172,7 @@ Dim NSExceptionsCount As Integer
 
 Sub Main
 
-	version = "v1.36a"
+	version = "v1.37"
 
 	Set diag = DiagramManager.ActiveDiagram
 	Set mdl = diag.ActiveModel
